@@ -1,19 +1,12 @@
 import Cabecalho from "./components/Cabecalho"
 import Navegador from "./components/Navegador"
 
-export default function Home() {
+export default function Contactos() {
   return (
     <div>
-      <Cabecalho />
+      <Cabecalho titulo="Contactos" />
       <Navegador />
-
-      <main>
-
-      </main>
-
-      <footer>
-
-      </footer>
+      <h1>Contactos</h1>
     </div>
   )
 }
