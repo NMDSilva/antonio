@@ -5,7 +5,7 @@ export default function Contactos() {
   return (
     <div>
       <Cabecalho titulo="Contactos" />
-      <Navegador />
+      <Navegador active='contactos' />
       <h1>Contactos</h1>
     </div>
   )
