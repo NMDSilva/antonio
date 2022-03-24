@@ -1,5 +1,5 @@
-import Cabecalho from "./components/Cabecalho"
-import Navegador from "./components/Navegador"
+import Cabecalho from './components/Cabecalho';
+import Navegador from './components/Navegador';
 
 export default function Home() {
   return (
@@ -7,13 +7,9 @@ export default function Home() {
       <Cabecalho />
       <Navegador />
 
-      <main>
+      <main className="container"></main>
 
-      </main>
-
-      <footer>
-
-      </footer>
+      <footer></footer>
     </div>
-  )
+  );
 }
